@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore CSS</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="color.css">
+
+    <!-- Internal CSS -->
+    <style>
+        /* Element Selector */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+
+        /* Element Selector */
+        h3 {
+            text-align: center;
+        }
+
+        /* ID Selector */
+        #main-heading {
+            font-size: 28px;
+        }
+
+        /* Class Selector */
+        .secondary-heading {
+            padding: 10px;
+        }
+
+        /* Class Selector */
+        .text {
+            color: darkslategray;
+            font-style: italic;
+        }
+
+        /* Element Selector */
+        li {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+        /* Pseudo-class Selector */
+        li:nth-child(2) {
+            color: teal;
+        }
+
+        li:nth-child(3) {
+            color: tomato;
+        }
+    </style>
+</head>
+
+<body id="main-body">
+
+    <!-- Inline CSS -->
+    <h3 id="main-heading" class="heading" style="color: blueviolet;">Learning CSS</h3>
+    <h3 class="heading secondary-heading" style="background-color: aquamarine;">Hello! Let's Start</h3>
+
+    <p id="definition" class="text">CSS Meaning: Cascading Style Sheet</p>
+
+    <ul id="css-types" class="list">
+        <li class="list-item inline-style" style="color: blueviolet;">Inline</li>
+        <li class="list-item internal-style">Internal</li>
+        <li class="list-item external-style">External</li>
+    </ul>
+
+</body>
+
+</html>

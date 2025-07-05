@@ -1,0 +1,37 @@
+/* External CSS */
+
+/* Class selector */
+.heading {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* ID selector */
+#css-types {
+  background-color: #e0f7fa;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+/* Element selector */
+ul {
+  list-style-type: square;
+}
+
+/* Class selector */
+.list-item {
+  padding: 6px;
+}
+
+/* Class-based individual selectors */
+.inline-style {
+  font-weight: bold;
+}
+
+.internal-style {
+  font-style: italic;
+}
+
+.external-style {
+  text-decoration: underline;
+}
