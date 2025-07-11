@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Selector</title>
+
+    <!-- Internal CSS -->
+    <style>
+        /* Universal Selector */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Element Selector */
+        p {
+            margin: 10px 0;
+            font-size: 16px;
+        }
+
+        /* ID Selector */
+        #main-heading {
+            text-align: center;
+            color: teal;
+            margin: 20px 0;
+        }
+
+        /* Class Selector */
+        .highlight {
+            background-color: #f0f8ff;
+            padding: 10px;
+            border-left: 4px solid #0077b6;
+        }
+
+        /* Grouping Selector */
+        h3,
+        p {
+            padding: 10px;
+        }
+
+        /* Attribute Selector */
+        input[type="text"] {
+            border: 2px solid #4caf50;
+            padding: 8px;
+            width: 250px;
+            margin-top: 20px;
+        }
+
+        /* Style for span */
+        span.special-word {
+            color: tomato;
+            font-weight: bold;
+        }
+
+        /* Example list styling */
+        li {
+            padding: 8px;
+            color: darkblue;
+        }
+
+        /* Card-style div content */
+        .info-card {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 500px;
+            text-align: center;
+        }
+
+        .info-card h4 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .info-card p {
+            font-size: 15px;
+            color: #555;
+        }
+
+        .info-card button {
+            background-color: #0077b6;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-top: 15px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .info-card button:hover {
+            background-color: #005f8d;
+        }
+    </style>
+</head>
+
+<body>
+    <h3 id="main-heading">Explore mixed selector</h3>
+
+    <p class="highlight">CSS helps style <span class="special-word">HTML elements</span> on a webpage.</p>
+    <p class="highlight">There are <span class="special-word">three main types</span> of CSS: inline, internal, and
+        external.</p>
+    <p class="highlight">The <span class="special-word">class selector</span> targets multiple elements with the same
+        class name.</p>
+    <p class="highlight">The <span class="special-word">id selector</span> is used for a unique element on the page.</p>
+    <p class="highlight">External CSS keeps your design separate from HTML, making the code cleaner.</p>
+
+    <ol>
+        <li>Universal Selector</li>
+        <li>Element Selector</li>
+        <li>Class Selector</li>
+        <li>ID Selector</li>
+        <li>Attribute Selector</li>
+        <li>Grouping Selector</li>
+    </ol>
+
+    <div class="info-card">
+        <h4>Quick CSS Tip</h4>
+        <p>You can combine multiple selectors using grouping to reduce repetition.</p>
+        <button>Learn More</button>
+    </div>
+
+    <input type="text" placeholder="Type something...">
+</body>
+
+</html>
