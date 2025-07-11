@@ -47,3 +47,28 @@
 .heading {
     margin-bottom: 37px;
 }
+
+.action {
+    margin: auto;
+    margin-top: 68px;
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.see {
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
+}
+
+.explore {
+    font-size: 24px;
+
+    color: #252432;
+    opacity: 50%;
+}
+
+.webflow {
+    border-radius: 48px ;
+}
