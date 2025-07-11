@@ -1,0 +1,49 @@
+* {
+    align-items: center;
+    font-family: "raleway";
+
+}
+
+.hero-container {
+    background-image: url(Assets/Hero-bg.png);
+}
+
+#navbar {
+    margin: auto;
+    height: 151px;
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: "inter";
+    color: #4E47FF;
+    font-size: 34px;
+    font-weight: 800;
+
+}
+
+.button {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px 36px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: #4E47FF;
+}
+
+.hero-section {
+    margin: auto;
+    margin-top: 158px;
+    max-width: 1140px;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+.heading {
+    margin-bottom: 37px;
+}
