@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+/* Background color only */
+.color-box {
+    background-color: #d1e7dd;
+    padding: 30px;
+    margin-bottom: 20px;
+    border: 1px solid #bcd0c7;
+}
+
+/* Background image with cover, center, no-repeat */
+.image-box {
+    background-image: url('images/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    height: 200px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    /* Makes text more readable */
+}
+
+
+/* Repeating background image */
+.repeat-box {
+    background-image: url('images/bg.jpg');
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    background-size: contain;
+    background-position: top left;
+    /* background-size: 100px 100px; */
+    height: 200px;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
