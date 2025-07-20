@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Display and Box Shadow Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        .box {
+            padding: 10px 15px;
+            margin: 10px 0;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+        }
+
+        .none {
+            display: none;
+            /* Completely removed from the layout */
+        }
+
+        .hidden {
+            visibility: hidden;
+            /* Still takes space, just invisible */
+        }
+
+        .inline {
+            display: inline;
+            background-color: #d1e7dd;
+        }
+
+        .block {
+            display: block;
+            background-color: #cfe2ff;
+        }
+
+        .inline-block {
+            display: inline-block;
+            background-color: #fff3cd;
+            width: 150px;
+        }
+
+        .shadow {
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+            background-color: #f8d7da;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>CSS Display and Box Shadow Example</h2>
+
+    <p>This is a <span class="inline">Inline</span> element. It stays in line with text.</p>
+
+    <div class="block">Block Element - takes full width</div>
+
+    <div class="inline-block">Inline-block - respects width but aligns inline</div>
+
+    <div class="none">You shouldn't see this - display: none</div>
+
+    <div class="hidden">This is hidden (visibility: hidden), but space is still taken.</div>
+
+    <div class="shadow">This box has a shadow using box-shadow</div>
+
+</body>
+
+</html>
