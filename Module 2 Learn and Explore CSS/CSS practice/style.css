@@ -12,8 +12,14 @@ body {
     border: 1px solid #bcd0c7;
 }
 
+.box{
+    border: 2px solid peru;
+    
+}
+
 /* Background image with cover, center, no-repeat */
 .image-box {
+    /* text-decoration: overline; */
     background-image: url('images/bg.jpg');
     background-repeat: no-repeat;
     background-position: center;
