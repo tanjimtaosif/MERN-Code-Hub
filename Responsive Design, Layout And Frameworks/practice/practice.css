@@ -24,7 +24,8 @@
     height: 300px;
     width: 300px;
     background-color: bisque;
-
+    box-sizing: content-box;
+    padding: 40px;
     /* ** Using Position and Transform ** */
     /* position: absolute;
     left: 50%;
@@ -36,4 +37,39 @@
     height: 300px;
     width: 300px;
     background-color: brown;
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+
+.flag {
+    background-color: green;
+    height: 400px;
+    width: 700px;
+    position: relative;
+}
+
+.red {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-60%, -50%);
+    z-index: 1;
+
+}
+
+.yellow {
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-30%, -50%);
+    z-index: 2;
 }
