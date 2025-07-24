@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+.container {
+    max-width: 1210px;
+    margin: auto;
+
+
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #161616;
+    color: white;
+    border-radius: 20px;
+    margin: 50px auto;
+}
+
+.banner h2 {
+    font-size: 70px;
+}
+
+.banner-left {
+    padding-left: 45px;
+}
+
+.banner p {
+    margin: 15px 0px;
+}
+
+.btn {
+    padding: 16px 25px;
+    background-color: #DD0000;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+}
+
+.banner-right img {
+    display: block;
+}
