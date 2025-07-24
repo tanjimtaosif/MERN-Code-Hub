@@ -1,3 +1,8 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 .box-sizing {
     background-color: blueviolet;
     height: 700px;
@@ -18,6 +23,10 @@
     /* ** Using Position and Transform ** */
     /* position: relative; */
     gap: 10px;
+}
+
+.header-text {
+    margin-top: 10px;
 }
 
 .content-box {
