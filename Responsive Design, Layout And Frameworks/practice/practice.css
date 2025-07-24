@@ -1,0 +1,39 @@
+.box-sizing {
+    background-color: blueviolet;
+    height: 700px;
+    width: 700px;
+    margin: auto;
+
+    /* ** Using Flex  ** */
+    display: flex;
+    /*horizontally aligned */
+    justify-content: center;
+    /* /* Vertically aligned */
+    align-items: center;
+
+    /* ** Using Grid  ** */
+    /* display: grid;
+    place-content: center; */
+
+    /* ** Using Position and Transform ** */
+    /* position: relative; */
+    gap: 10px;
+}
+
+.content-box {
+    height: 300px;
+    width: 300px;
+    background-color: bisque;
+
+    /* ** Using Position and Transform ** */
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+.border-box {
+    height: 300px;
+    width: 300px;
+    background-color: brown;
+}
