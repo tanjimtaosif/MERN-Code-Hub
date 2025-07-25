@@ -24,6 +24,8 @@
 
 .banner h2 {
     font-size: 70px;
+    line-height: 70px;
+    font-weight: 600;
 }
 
 .banner-left {
@@ -40,8 +42,70 @@
     color: #FFFFFF;
     border: none;
     border-radius: 5px;
+    display: block;
 }
 
 .banner-right img {
     display: block;
+}
+
+.upcoming-matches {
+    display: flex;
+    gap: 20px;
+    /* justify-content: space-between; */
+}
+
+.upcoming-matches-left {
+    background-color: black;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 10px;
+    gap: 10px;
+    height: fit-content;
+
+}
+
+.upcoming-matches-left .btn:nth-child(1),
+.upcoming-matches-left .btn:nth-child(2) {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.upcoming-matches-right {
+    flex: 1;
+}
+
+.card-bottom {
+    display: flex;
+}
+
+.upcoming-matches-right .card .btn {
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 4px 16px;
+    border: 1px solid rgb(22, 22, 22);
+    border-radius: 5px;
+    margin: 0px 0px 15px 0px;
+}
+
+.upcoming-matches-right .card img {
+    height: 175px;
+    width: 312px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.upcoming-matches-right .card h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.card-bottom {
+    display: flex;
+    gap: 20px;
+}
+
+.upcoming-matches-right .card .card-body{
+    padding: 20px;
 }
