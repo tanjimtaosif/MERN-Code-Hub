@@ -17,3 +17,5 @@ var second = 0.2;
 var total = first + second;
 console.log(total.toFixed(5)); // to fix the number length from the floating point
 
+const num = -50 / 0; // infinity 
+console.log(num);
