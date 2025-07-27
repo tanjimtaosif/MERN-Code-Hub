@@ -7,7 +7,7 @@
 */
 
 // 6. Variable name writting 
-var my current home address = 'Munshiganj Dhaka'; // not valid
+// var my current home address = 'Munshiganj Dhaka'; // not valid
 var mycurrenthomeaddress = 'Munshiganj Dhaka'; // not readable 
 var my_current_home_address = 'Munshiganj Dhaka'; //Snake Case
 var myCurrentHomeAddress = 'Munshiganj Dhaka';  // Camel Case
