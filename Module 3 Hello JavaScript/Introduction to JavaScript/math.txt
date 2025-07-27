@@ -1,0 +1,14 @@
+// Math needed for programming
+
+1. NUmber : +ve . -ve
+2. Integer : 2, 88 [odd, even]
+3. Float
+4. Operator : +, - , *, / 
+5. More oprations : %, []
+6. Percentage 
+7. Sum
+8. Avg
+9. Max/min: 12,34
+10. Series
+11. Area: triagnle
+12. Prime number, Permitatio, Axis
