@@ -13,5 +13,4 @@ const fruits = ['orange', 'apple', 'mango', 'strawberry', 'jackfruit'];
 
 for (const fruit of fruits) {
     console.log(fruit);
-
 }
