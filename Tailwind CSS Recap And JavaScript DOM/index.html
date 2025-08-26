@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pets</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Box Icons -->
+    <!-- Source / Installation : https://docs.boxicons.com/font  -->
+    <link
+      href="https://cdn.boxicons.com/fonts/basic/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- /// -->
+    <style>
+      /* Apply borders to all elements */
+      * {
+        border: 1px solid red;
+      }
+      /* Apply borders to body */
+      body {
+        border: 2px dashed green;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Buttons Section -->
+    <!-- onclick="makeButtonDisable('500', 'payment-done')" -->
+    <section id="comment-history"></section>
+    <section
+      id="share-button-parent"
+      class="h-screen flex items-center justify-center gap-4"
+    >
+      <input class="outline" type="text" id="comment-input" value="" />
+      <button
+        id="like-button"
+        class="btn-primary bg-cyan-700 text-white px-6 py-3"
+      >
+        <span id="like-number">0</span>
+        Like
+      </button>
+      <button
+        id="comment-button"
+        class="btn-primary bg-cyan-700 text-white px-6 py-3"
+      >
+        Comment
+      </button>
+      <button
+        id="share-button"
+        class="btn-primary bg-cyan-700 text-white px-6 py-3"
+      >
+        Share
+      </button>
+    </section>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <!-- Hero Text -->
+
+      <h1>A Happier Pet. A Happier You.</h1>
+      <p>
+        Find Your New Best Friend. Stock Up on Joy. Your one-stop for ethical
+        pets, expert advice, and everything you need for a thriving companion.
+      </p>
+      <button>Learn More</button>
+
+      <!-- Hero Image -->
+
+      <div class="w-[800px]">
+        <img
+          id="aqurium-img"
+          class="w-[800px]"
+          src="./images/aqurium.jpg"
+          alt=""
+        />
+      </div>
+    </section>
+
+    <!-- Pets Section -->
+    <!-- Grid -->
+    <section class="grid grid-cols-3 space-y-4 space-x-4">
+      <h1 class="text-3xl font-bold">Our Pets</h1>
+      <!-- Single Pet Card -->
+      <div class="w-full border rounded-lg">
+        <figure>
+          <img
+            class="w-full rounded-lg"
+            src="https://i.ibb.co.com/p0w744T/pet-1.jpg"
+            alt="Image of Dog - Sunny, Golden Retriever"
+          />
+        </figure>
+        <article class="p-4 space-y-2 mt-2">
+          <h3 class="text-xl font-bold">Sunny</h3>
+          <p><i class="bx bx-table-cells-large"></i> Breed: Golden Retriever</p>
+          <p><i class="bx bx-calendar-alt"></i> Birth: 2023-01-15</p>
+          <p><i class="bx bx-male"></i> Gender: Male</p>
+          <p><i class="bx bx-dollar-circle"></i> Price: 1200</p>
+          <div class="flex gap-3">
+            <button class="border border-cyan-700 py-3 px-6 flex-1">
+              <i class="bx bx-like"></i>
+            </button>
+            <button class="bg-cyan-700 py-3 px-6 flex-1">Adopt</button>
+            <button class="bg-cyan-700 py-3 px-6 flex-1">Details</button>
+          </div>
+        </article>
+      </div>
+
+      <!-- Single Pet Card -->
+      <div class="w-full border rounded-lg">
+        <figure>
+          <img
+            class="w-full rounded-lg"
+            src="https://i.ibb.co.com/p0w744T/pet-1.jpg"
+            alt="Image of Dog - Sunny, Golden Retriever"
+          />
+        </figure>
+        <article class="p-4 space-y-2 mt-2">
+          <h3 class="text-xl font-bold">Sunny</h3>
+          <p><i class="bx bx-table-cells-large"></i> Breed: Golden Retriever</p>
+          <p><i class="bx bx-calendar-alt"></i> Birth: 2023-01-15</p>
+          <p><i class="bx bx-male"></i> Gender: Male</p>
+          <p><i class="bx bx-dollar-circle"></i> Price: 1200</p>
+          <div class="flex gap-3">
+            <button class="border border-cyan-700 py-3 px-6 flex-1">
+              <i class="bx bx-like"></i>
+            </button>
+            <button class="bg-cyan-700 py-3 px-6 flex-1">Adopt</button>
+            <button class="bg-cyan-700 py-3 px-6 flex-1">Details</button>
+          </div>
+        </article>
+      </div>
+
+      <!-- Single Pet Card -->
+      <div class="w-full border rounded-lg">
+        <figure>
+          <img
+            class="w-full rounded-lg"
+            src="https://i.ibb.co.com/p0w744T/pet-1.jpg"
+            alt="Image of Dog - Sunny, Golden Retriever"
+          />
+        </figure>
+        <article class="p-4 space-y-2 mt-2">
+          <h3 class="text-xl font-bold">Sunny</h3>
+          <p><i class="bx bx-table-cells-large"></i> Breed: Golden Retriever</p>
+          <p><i class="bx bx-calendar-alt"></i> Birth: 2023-01-15</p>
+          <p><i class="bx bx-male"></i> Gender: Male</p>
+          <p><i class="bx bx-dollar-circle"></i> Price: 1200</p>
+          <div class="flex gap-3">
+            <button class="border border-cyan-700 py-3 px-6 flex-1">
+              <i class="bx bx-like"></i>
+            </button>
+            <button class="bg-cyan-700 py-3 px-6 flex-1">Adopt</button>
+            <button class="bg-cyan-700 py-3 px-6 flex-1">Details</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
