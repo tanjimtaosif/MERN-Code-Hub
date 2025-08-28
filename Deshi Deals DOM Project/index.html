@@ -10,7 +10,7 @@
   <title>Deshi Deals | Home</title>
 </head>
 
-<body>
+<body class="bg-gray-100">
   <!-- Header Section -->
   <header class="shadow-lg py-3 bg-white relative z-10">
 
@@ -89,7 +89,7 @@
         </div>
         <!-- Sports Wear -->
         <div id="sports">
-          <h1 class="text-2xl font-bold mb-5">Sportswear</h1>
+          <h1 class="text-2xl font-bold my-5">Sportswear</h1>
           <div id="kitchen" class="grid grid-cols-3 gap-5">
             <!-- Product Card 1 -->
             <div class="card bg-base-100 shadow-sm">
@@ -137,7 +137,7 @@
         </div>
         <!-- Furniture -->
         <div id="furniture">
-          <h1 class="text-2xl font-bold mb-5">Furniture</h1>
+          <h1 class="text-2xl font-bold my-5">Furniture</h1>
           <div id="furniture" class="grid grid-cols-3 gap-5">
             <!-- Product Card 1 -->
             <div class="card bg-base-100 shadow-sm">
@@ -183,8 +183,28 @@
             </div>
           </div>
         </div>
-      
+      </section>
+      <aside id="cart-box" class=" col-span-3 mt-13">
+
+        <div class="bg-white p-5 rounded-md">
+          <h2 class="font-bold ">Have A Coupon</h2>
+          <div class="join mt-2 w-full">
+            <input class="input join-item" placeholder="Coupon code" />
+            <button class="btn join-item rounded-r-xl bg-pink-500 text-white">Apply</button>
+          </div>
+        </div>
+        <div class="cart mt-5 p-5 bg-white rounded-md">
+          <h1 class="font-bold mb-2">Cart</h1>
+          <div id="cart-container" class="">
+            <h2>Total price: <span id="total-price">0</span>TK</h2>
+            <h2>Total quantity: <span id="total-quantity">0</span>TK</h2>
+            <button class="btn bg-pink-500 text-white btn-block mt-2">Make Purchase</button>
+          </div>
+        </div>
+      </aside>
+    </section>
   </main>
+  <script src="script/index.js"></script>
 </body>
 
 </html>
