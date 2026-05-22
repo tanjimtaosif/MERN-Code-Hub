@@ -1,12 +1,12 @@
 // String
-var name = "Sadar Uddin";
+var name = "Tanjim Taosif";
 console.log(name);
 
-var address = "Andar killa bandarban"
+var address = "Thanchi Bandarban";
 console.log(address);
 
-var country = 'Bangladesh'
-console.log(address);
+var country = 'Bangladesh';
+console.log(country);
 
 // Boolean
 var isRich = true;
